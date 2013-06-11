@@ -13,4 +13,4 @@ curl https://s3.amazonaws.com/static.tandemstock.com/gs.tgz -s -O
 mkdir -p vendor/gs
 
 # untar the binary to the directory we want
-tar -C vendor/gs -xvf gs.tgz
+tar -C vendor/gs -xf gs.tgz
